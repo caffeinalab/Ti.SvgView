@@ -117,7 +117,7 @@ public class ViewProxy extends TiViewProxy {
 	public void handleCreationDict(KrollDict options) {
 		super.handleCreationDict(options);
 		if (options.containsKey("image")) {
-			image = (String) options.getString("image");
+			image = options.getString("image");
 		}
 	}
 
